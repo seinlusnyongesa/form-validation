@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+}
+
+input:focus:invalid {
+  border: 1px solid red;
+  outline: none;
+}
+
+input:invalid {
+  background: rgb(245, 117, 117);
+}
